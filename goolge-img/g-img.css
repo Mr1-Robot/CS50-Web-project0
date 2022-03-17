@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.container .links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.2rem;
+  margin: 1.2rem 3rem;
+}
+
+.container .links a {
+  font-size: 0.85rem;
+  color: #000000de;
+}
+
+.container .links a:hover {
+  text-decoration: underline;
+}
+
+.container .links .show-app-img {
+  padding: 0.8rem;
+  border-radius: 50%;
+}
+
+.container .links .show-app-img:hover {
+  background: #0000002b;
+}
+
+.container .middle .img {
+  position: relative;
+}
+
+.container .middle span {
+  position: absolute;
+  color: #4285f4;
+  top: 4.75rem;
+  right: 0.3rem;
+  text-transform: lowercase;
+}
+
+.container form .search-bar {
+  width: 36rem;
+  height: 2.9rem;
+  border-radius: 2rem;
+  border: 0.1rem solid #0000001e;
+  padding: 0 3rem;
+}
+
+.container form .search-bar:hover {
+  box-shadow: 0px 1px 5px 0px #00000042;
+}
+
+.container form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container form .search-icon {
+  position: absolute;
+  top: 0.9rem;
+  left: 1rem;
+}
+
+.container form .mic-cam {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+}
+
+.container form .mic-cam img {
+  margin: 0 0.6rem;
+  cursor: pointer;
+}
+
+.container form .search-btn {
+  padding: 0.8rem 3rem;
+  margin: 2rem 0 0 0;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-size: 1rem;
+  background: #f2f2f2;
+}
+
+.container form .search-btn:hover {
+  box-shadow: 0.1rem 0.1rem 0.5rem #70757a62;
+}
+
+.container .middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 12.5rem;
+}
+
+.container footer {
+  background: #f2f2f2;
+}
+
+.container footer .city {
+  padding: 1rem 2rem;
+  color: #70757a;
+  font-size: 0.9rem;
+}
+
+.container footer .s-f {
+  border-top: 0.1rem solid #dadce0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container footer .s-f .f-left {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 2rem;
+}
+
+.container footer .s-f ul a {
+  color: #70757a;
+  font-size: 0.9rem;
+}
+
+.container footer .s-f ul a:hover {
+  text-decoration: underline;
+}
+
+.container .s-f .f-right {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 2rem;
+}

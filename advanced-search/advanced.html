@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Google Search</title>
+    <link rel="stylesheet" href="advanced.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="img">
+        <a href="https://www.google.com">
+          <img src="/images/google.png" width="70rem" alt="" />
+        </a>
+      </div>
+      <div class="links">
+        <a
+          href="https://accounts.google.com/signin/v2/identifier?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Ftab%3Dkk&ec=GAlAwAE&flowName=GlifWebSignIn&flowEntry=AddSession"
+          >gmail</a
+        >
+        <a class="show-app" href="https://about.google/products/">
+          <img src="/images/show-app.png" width="20rem" alt="" />
+        </a>
+        <a href="/goolge-img/google-img.html">google images</a>
+        <a href="/search/index.html">google search</a>
+      </div>
+    </div>
+    <section>
+      <div class="heading">
+        <h3>advanced search</h3>
+      </div>
+      <div class="content">
+        <div class="heading-form">
+          <div class="left-heading">
+            <p>Find pages with...</p>
+          </div>
+        </div>
+      </div>
+      <form action="https://google.com/search">
+        <table>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td><h3>To do this in search box.</h3></td>
+            </tr>
+            <tr>
+              <td>
+                <label for="all">all these words: </label>
+              </td>
+              <td>
+                <input type="text" name="as_q" id="all" />
+              </td>
+              <td>
+                <p>Type the important words: tri-colour rat terrier</p>
+              </td>
+            </tr>
+            <!-- second row -->
+            <tr>
+              <td>
+                <label for="exact">this exact word or phrase: </label>
+              </td>
+              <td>
+                <input type="text" name="as_epq" />
+              </td>
+              <td>
+                <p>Put exact words in quotes: "rat terrier"</p>
+              </td>
+            </tr>
+
+            <!-- Third Row  -->
+            <tr>
+              <td>
+                <label for="any">any of these words: </label>
+              </td>
+              <td>
+                <input type="text" name="as_oq" id="any" />
+                <input hidden type="submit" />
+              </td>
+              <td>
+                <p>
+                  Type OR between all the words you want: miniature OR standard
+                </p>
+              </td>
+            </tr>
+
+            <!-- Fourth Row  -->
+            <tr>
+              <td>
+                <label for="none">none of these words: </label>
+              </td>
+              <td>
+                <input type="text" name="as_eq" id="none" />
+              </td>
+              <td>
+                <p>
+                  Put a minus sign just before words that you don't want:
+                  -rodent, -"Jack Russell"
+                </p>
+              </td>
+            </tr>
+            <!-- Fifth Row  -->
+            <tr>
+              <td>
+                <label for="numbers">numbers ranging from:</label>
+              </td>
+              <td>
+                <input class="spec" type="text" name="as_nlo" id="number" /> to
+                <input class="spec" type="text" name="as_nhi" />
+              </td>
+              <td>
+                <p>
+                  Put two full stops between the numbers and add a unit of
+                  measurement: 10..35 kg, £300..£500, 2010..2011
+                </p>
+              </td>
+            </tr>
+            <!-- For Submit BTN  -->
+            <tr>
+              <td></td>
+              <td style="text-align: end; height: 7rem">
+                <input type="submit" class="sub" value="Advanced Search" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+
+      <footer>
+        <div class="city">
+          <p>iraq</p>
+        </div>
+        <div class="s-footer">
+          <ul class="f-left">
+            <li>
+              <a
+                href="https://support.google.com/websearch/?visit_id=637829981738176905-705543042&hl=en-IQ&rd=2#topic=3378866"
+                >Help</a
+              >
+            </li>
+            <li>
+              <a href="https://policies.google.com/privacy?hl=en-IQ&fg=1"
+                >Privacy</a
+              >
+            </li>
+            <li>
+              <a href="https://policies.google.com/terms?hl=en-IQ&fg=1"
+                >Terms</a
+              >
+            </li>
+          </ul>
+          <ul class="f-right"></ul>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.big-one {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.upper-right-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 1.2rem 3rem;
+  gap: 1.2rem;
+}
+
+.upper-right-links a {
+  font-size: 0.85rem;
+  color: #000000de;
+}
+
+.upper-right-links a:hover {
+  text-decoration: underline;
+}
+
+.upper-right-links .show-img {
+  padding: 0.8rem;
+}
+
+.upper-right-links .show-img:hover {
+  background: #0000002b;
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 8rem;
+}
+
+.container .offered p {
+  font-size: 0.75rem;
+  margin-top: 1rem;
+}
+
+.container .offered p span {
+  color: blue;
+  margin: 0 0.5rem;
+}
+
+.container form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  margin-top: 0.5rem;
+}
+
+.container form .search-icon {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.container form .mic-icon {
+  position: absolute;
+  top: 0.6rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.container form .search-bar {
+  width: 36rem;
+  height: 2.9rem;
+  border: 0.1rem solid #0000001c;
+  border-radius: 2rem;
+  padding: 0 0 0 3rem;
+}
+
+.container form .search-bar:hover {
+  box-shadow: 0px 1px 6px #20212447;
+}
+
+.container form .btns input {
+  padding: 0.6rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 0.2rem;
+  background: #f8f9fa;
+  margin: 0 0.3rem;
+  cursor: pointer;
+}
+
+.container form .btns input:hover {
+  box-shadow: 0px 1px 5px 0px #00000042;
+}
+
+footer {
+  background: #f2f2f2;
+}
+
+footer .city {
+  border-bottom: 1px solid #dadce0;
+  padding: 1rem 2rem;
+  color: #70757a;
+  font-size: 0.9rem;
+}
+
+footer .s-f {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+footer .s-f ul li a {
+  color: #70757a;
+  font-size: 0.9rem;
+}
+
+footer .s-f ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .s-f .f-left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+footer .s-f .f-right {
+  display: flex;
+  gap: 2rem;
+}
