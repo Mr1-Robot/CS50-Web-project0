@@ -102,6 +102,7 @@
 
 .container form .search-btn:hover {
   box-shadow: 0.1rem 0.1rem 0.5rem #70757a62;
+  outline: 1px solid rgba(0, 0, 0, 0.239);
 }
 
 .container .middle {
